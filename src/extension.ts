@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 		 'add',  'blame',  'commit',  'diffalt',  'log', 'revert'
 	];
 	for (const value of allCommands) {
-		let disposable = vscode.commands.registerCommand("sjp27.tgit." + value, (uri) => {
+		let disposable = vscode.commands.registerCommand("sjp27.rgit." + value, (uri) => {
 			let path = getPath(uri);
 			execTgCommand(value, path);
             vscode.window.showInformationMessage('');

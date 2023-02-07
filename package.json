@@ -17,124 +17,124 @@
 	},
 	"main": "./out/extension.js",
 	"activationEvents": [
-		"onCommand:sjp27.tgit.add",
-		"onCommand:sjp27.tgit.blame",
-		"onCommand:sjp27.tgit.commit",
-		"onCommand:sjp27.tgit.diffalt",
-		"onCommand:sjp27.tgit.log",
-		"onCommand:sjp27.tgit.revert"
+		"onCommand:sjp27.rgit.add",
+		"onCommand:sjp27.rgit.blame",
+		"onCommand:sjp27.rgit.commit",
+		"onCommand:sjp27.rgit.diffalt",
+		"onCommand:sjp27.rgit.log",
+		"onCommand:sjp27.rgit.revert"
 	],
 	"contributes": {
 		"commands": [
 			{
-				"command": "sjp27.tgit.add",
+				"command": "sjp27.rgit.add",
 				"title": "Add"
 			},
 			{
-				"command": "sjp27.tgit.blame",
+				"command": "sjp27.rgit.blame",
 				"title": "Blame"
 			},
 			{
-				"command": "sjp27.tgit.commit",
+				"command": "sjp27.rgit.commit",
 				"title": "Commit"
 			},
 			{
-				"command": "sjp27.tgit.diffalt",
+				"command": "sjp27.rgit.diffalt",
 				"title": "Diff"
 			},
 			{
-				"command": "sjp27.tgit.log",
+				"command": "sjp27.rgit.log",
 				"title": "Log"
 			},
 			{
-				"command": "sjp27.tgit.revert",
+				"command": "sjp27.rgit.revert",
 				"title": "Revert"
 			}
 		],
 		"menus": {
 			"editor/context": [
 				{
-					"command": "sjp27.tgit.add",
+					"command": "sjp27.rgit.add",
 					"when": "editorFocus",
 					"group": "t_git@5"
 				},
 				{
-					"command": "sjp27.tgit.blame",
+					"command": "sjp27.rgit.blame",
 					"when": "editorFocus",
 					"group": "t_git@10"
 				},
 				{
-					"command": "sjp27.tgit.commit",
+					"command": "sjp27.rgit.commit",
 					"when": "editorFocus",
 					"group": "t_git@15"
-				},								
+				},
 				{
-					"command": "sjp27.tgit.diffalt",
+					"command": "sjp27.rgit.diffalt",
 					"when": "editorFocus",
 					"group": "t_git@20"
 				},
 				{
-					"command": "sjp27.tgit.log",
+					"command": "sjp27.rgit.log",
 					"when": "editorFocus",
 					"group": "t_git@25"
-				},							
+				},
 				{
-					"command": "sjp27.tgit.revert",
+					"command": "sjp27.rgit.revert",
 					"when": "editorFocus",
 					"group": "t_git@30"
 				}
 			],
 			"explorer/context": [
 				{
-					"command": "sjp27.tgit.add",
+					"command": "sjp27.rgit.add",
 					"group": "t_git@5"
 				},
 				{
-					"command": "sjp27.tgit.blame",
+					"command": "sjp27.rgit.blame",
 					"group": "t_git@10"
 				},
 				{
-					"command": "sjp27.tgit.commit",
+					"command": "sjp27.rgit.commit",
 					"group": "t_git@15"
 				},
 				{
-					"command": "sjp27.tgit.diffalt",
+					"command": "sjp27.rgit.diffalt",
 					"group": "t_git@20"
 				},
 				{
-					"command": "sjp27.tgit.log",
+					"command": "sjp27.rgit.log",
 					"group": "t_git@25"
-				},							
+				},
 				{
-					"command": "sjp27.tgit.revert",
+					"command": "sjp27.rgit.revert",
 					"group": "t_git@30"
 				}
 			],
 			"editor/title/context": [
 				{
-					"command": "sjp27.tgit.add",
+					"command": "sjp27.rgit.add",
 					"group": "t_git@5"
 				},
 				{
-					"command": "sjp27.tgit.blame",
+					"command": "sjp27.rgit.blame",
 					"group": "t_git@10"
 				},
 				{
-					"command": "sjp27.tgit.commit",
+					"command": "sjp27.rgit.commit",
 					"group": "t_git@15"
 				},
 				{
-					"command": "sjp27.tgit.diffalt",
+					"command": "sjp27.rgit.diffalt",
 					"group": "t_git@20"
 				},
 				{
-					"command": "sjp27.tgit.log",
+					"command": "sjp27.rgit.log",
 					"group": "t_git@25"
 				},
 				{
-					"command": "sjp27.tgit.revert",
+					"command": "sjp27.rgit.revert",
 					"group": "t_git@30"
-				}				
+				}
             ]
 		},
 		"keybindings": [
