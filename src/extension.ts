@@ -13,7 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "RabbitVCSGit Menus" is now active!');
 
 	const allCommands = [
-		 'add',  'blame',  'commit',  'altdiff',  'log', 'revert'
+		 'add',  'blame',  'commit',  'diffalt',  'log', 'revert'
 	];
 	for (const value of allCommands) {
 		let disposable = vscode.commands.registerCommand("sjp27.tgit." + value, (uri) => {

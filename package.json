@@ -20,7 +20,7 @@
 		"onCommand:sjp27.tgit.add",
 		"onCommand:sjp27.tgit.blame",
 		"onCommand:sjp27.tgit.commit",
-		"onCommand:sjp27.tgit.altdiff",
+		"onCommand:sjp27.tgit.diffalt",
 		"onCommand:sjp27.tgit.log",
 		"onCommand:sjp27.tgit.revert"
 	],
@@ -28,7 +28,7 @@
 		"commands": [
 			{
 				"command": "sjp27.tgit.add",
-				"title": "✅ Add"
+				"title": "Add"
 			},
 			{
 				"command": "sjp27.tgit.blame",
@@ -36,10 +36,10 @@
 			},
 			{
 				"command": "sjp27.tgit.commit",
-				"title": "🐢 Commit"
+				"title": "Commit"
 			},
 			{
-				"command": "sjp27.tgit.altdiff",
+				"command": "sjp27.tgit.diffalt",
 				"title": "Diff"
 			},
 			{
@@ -69,7 +69,7 @@
 					"group": "t_git@15"
 				},								
 				{
-					"command": "sjp27.tgit.altdiff",
+					"command": "sjp27.tgit.diffalt",
 					"when": "editorFocus",
 					"group": "t_git@20"
 				},
@@ -98,7 +98,7 @@
 					"group": "t_git@15"
 				},
 				{
-					"command": "sjp27.tgit.altdiff",
+					"command": "sjp27.tgit.diffalt",
 					"group": "t_git@20"
 				},
 				{
@@ -124,7 +124,7 @@
 					"group": "t_git@15"
 				},
 				{
-					"command": "sjp27.tgit.altdiff",
+					"command": "sjp27.tgit.diffalt",
 					"group": "t_git@20"
 				},
 				{
