@@ -2,7 +2,7 @@
 	"name": "rabbitvcsgit-menus-vscode",
 	"displayName": "RabbitVCSGit Menus",
 	"description": "Shows RabbitVCSGit menus in VScode File-Explorer, when you right-click on any file/folder.",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"publisher": "sjp27",
 	"engines": {
 		"vscode": "^1.64.0"

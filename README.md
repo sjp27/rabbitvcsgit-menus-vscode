@@ -13,6 +13,6 @@ Run `npm i` and then `vsce package` (you need to have vsce installed by `npm ins
 
 ## Release Notes
 
-### 0.1.0
+### 1.0.0
 
 Initial release.

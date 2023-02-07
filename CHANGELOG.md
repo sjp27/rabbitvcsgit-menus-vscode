@@ -4,6 +4,6 @@ All notable changes to the "rabbitvcsgit-menus-vscode" extension will be documen
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [Released]
 
-- 0.1.0 Initial release
+- 1.0.0 Initial release
